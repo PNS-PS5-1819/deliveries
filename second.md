@@ -3,6 +3,7 @@
 
 :confetti_ball: *BRAVO* ! On voit une nette progression par rapport au "rendu" `first` !! CONTINUEZ !
 
+Vous n'atteignez toujours pas, pour la plupart, les `requirements` du client ; mais les erreurs sont facilement réparables en majorité.
 
 
 [Pour les résultats par équipe, c'est ici!](https://github.com/PNS-PS5-1819/deliveries/tree/master/second)
