@@ -59,13 +59,13 @@ en invoquant `./apb.sh` (ou`./student_first.sh`) vous n’affichez pas ce qui es
 Beaucoup rajoute d’autre informations (debug, titre, temps d’execution).
 Pour d’autre ce sont simplement des erreurs de formatage (saut de ligne, pas d’espace, etc). 
 *Attention* cette sortie standard fait partie des `spec` et donc du contrat avec votre client !! 
-Vous ne pouvez pas la changer, pas plus que vous pouvez le format d’entrée !
+Vous ne pouvez pas la changer, pas plus que vous pouvez changer le format d’entrée !
 
 #### Différences sur les métriques et arrondies
 Cette erreur est à prendre avec un pas de recul et à traiter au cas par cas.
 - Certains d'entre vous retournent des chiffres à l'ouest de ce que le `ref` retourne (eg `3456796,43542745674587` vs `2.0`) ;
 - d'autres ont des erreurs d'arrondis, (`2.349` pour vous vs `2,35` pour le ref)
-- d'autres des formats inconsistants: un coup vous renvoyer des chiffres séparés par `.` et un autre coup pas `,`
+- d'autres des formats inconsistants: un coup vous renvoyer des chiffres séparés par `.` et un autre coup par `,`
 
 #### Erreurs par construction
 Quand vous `crashez` à l'exécution (ex: "donne moi la distance" --> "IndexOutOfBoundException has been thrown") ; *évidemment* quand on va comparer votre résultat (vide donc) à celui du `ref`, ca va planté :boom:
