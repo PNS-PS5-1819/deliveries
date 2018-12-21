@@ -1,5 +1,5 @@
 
-|Injecting submodule| :white_check_mark:|
+|Injecting submodule| :boom:|
 # Team les-pushit
 
 
@@ -62,7 +62,7 @@ Result :
 <details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
 
 ```
-Parsing time: 2
+Parsing time: 3
 Done
 Result : 
  0 1 2 X
@@ -111,7 +111,7 @@ Result :
 <details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
 
 ```
-Parsing time: 7
+Parsing time: 8
 ...................................................................................................Done
 Result : 
   0  1  2  3  4  5  6  X
@@ -160,7 +160,7 @@ Result :
 <details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
 
 ```
-Parsing time: 39
+Parsing time: 47
 ...................................................................................................Done
 Result : 
    0   1   2   3   4   5   6   7   8   9  X
@@ -176,7 +176,7 @@ Result :
 <details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
 
 ```
-Parsing time: 41
+Parsing time: 38
 ...................................................................................................Done
 Result : 
 0
@@ -209,7 +209,7 @@ Result :
 <details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
 
 ```
-Parsing time: 230
+Parsing time: 263
 ...................................................................................................Done
 Result : 
     0    1    2    3    4    5    6    7    8    9   10   11   12   13   X
@@ -258,8 +258,8 @@ Result :
 <details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
 
 ```
-Parsing time: 1361
-.......................................................................
+Parsing time: 1398
+........................................................................
 ```
 </details>
 
@@ -268,7 +268,7 @@ Parsing time: 1361
 <details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
 
 ```
-Parsing time: 1410
+Parsing time: 1383
 .......................................................................
 ```
 </details>
@@ -349,7 +349,7 @@ Result :
 <details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
 
 ```
-Parsing time: 11
+Parsing time: 13
 ...................................................................................................Done
 Result : 
   0  1  2  3  4  5  6  X
@@ -365,7 +365,7 @@ Result :
 <details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
 
 ```
-Parsing time: 10
+Parsing time: 11
 ...................................................................................................Done
 Result : 
 0
@@ -414,7 +414,7 @@ Result :
 <details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
 
 ```
-Parsing time: 70
+Parsing time: 73
 ...................................................................................................Done
 Result : 
 0
@@ -447,7 +447,7 @@ Result :
 <details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
 
 ```
-Parsing time: 396
+Parsing time: 360
 ...................................................................................................Done
 Result : 
     0    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   X
@@ -463,7 +463,7 @@ Result :
 <details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
 
 ```
-Parsing time: 330
+Parsing time: 435
 ...................................................................................................Done
 Result : 
 0
@@ -496,7 +496,7 @@ Result :
 <details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
 
 ```
-Parsing time: 3
+Parsing time: 2
 Done
 Result : 
  0 1 2 3 4 X
@@ -561,7 +561,7 @@ Result :
 <details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
 
 ```
-Parsing time: 15
+Parsing time: 14
 ...................................................................................................Done
 Result : 
 0
@@ -594,7 +594,7 @@ Result :
 <details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
 
 ```
-Parsing time: 95
+Parsing time: 84
 ...................................................................................................Done
 Result : 
    0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  X
@@ -610,7 +610,7 @@ Result :
 <details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
 
 ```
-Parsing time: 82
+Parsing time: 90
 ...................................................................................................Done
 Result : 
 0
@@ -643,7 +643,7 @@ Result :
 <details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
 
 ```
-Parsing time: 456
+Parsing time: 593
 ...................................................................................................Done
 Result : 
     0    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   X
@@ -659,7 +659,7 @@ Result :
 <details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
 
 ```
-Parsing time: 458
+Parsing time: 437
 ...................................................................................................Done
 Result : 
 0
@@ -670,4 +670,637 @@ Result :
 
 
 ### StudentFirst
+
+
+#### Provided datasets
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_10.txt -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+<details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
+
+```
+Done
+Result : 
+3
+
+```
+</details>
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+Parsing time: 2
+Done
+Result : 
+ 0 1 2 X
+ 9 0 0 1
+1.3
+2.2222222222222223
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+Parsing time: 2
+Done
+Result : 
+0
+0
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_100.txt -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+<details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
+
+```
+Done
+Result : 
+102
+
+```
+</details>
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+Parsing time: 9
+.Done
+Result : 
+  0  1  2  3  4  5  6  X
+ 78 12  0  0  3  5  1  1
+1.62
+24.12121212121212
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+Parsing time: 7
+.Done
+Result : 
+15
+4
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_1_000.txt -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+<details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
+
+```
+Done
+Result : 
+2291
+
+```
+</details>
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+Parsing time: 44
+.Done
+Result : 
+   0   1   2   3   4   5   6   7   8   9  X
+ 718 105  27  29  17  35  10   3  23   1  32
+2.08
+184.91735537190084
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+Parsing time: 45
+.Done
+Result : 
+316
+126
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_10_000.txt -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+<details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
+
+```
+Done
+Result : 
+24955
+
+```
+</details>
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+Parsing time: 253
+.Done
+Result : 
+    0    1    2    3    4    5    6    7    8    9   10   11   12   13   X
+ 6606  541   95   58  329  406   44  180  278  369   76  159  323   42  494
+3.51
+1274.0085209341469
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+Parsing time: 213
+.Done
+Result : 
+8400
+2196
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_100_000.txt -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+<details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
+
+```
+Done
+Result : 
+287397
+
+```
+</details>
+
+:hourglass: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+Parsing time: 1452
+
+```
+</details>
+
+:hourglass: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+Parsing time: 1410
+
+```
+</details>
+
+
+#### Hidden datasets
+
+___
+` ./student_first.sh -i ../baseline/private/_15.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+<details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
+
+```
+Done
+Result : 
+1
+
+```
+</details>
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+Parsing time: 4
+Done
+Result : 
+ 0 1 2 3 4 X
+14 1 0 0 0 0
+1.06
+4.066666666666666
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+Parsing time: 3
+Done
+Result : 
+0
+0
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../baseline/private/_150.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+<details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
+
+```
+Done
+Result : 
+1
+
+```
+</details>
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+Parsing time: 12
+.Done
+Result : 
+  0  1  2  3  4  5  6  X
+143  6  1  0  0  0  0  0
+1.05
+28.48
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+Parsing time: 13
+.Done
+Result : 
+0
+0
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../baseline/private/_1500.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+<details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
+
+```
+Done
+Result : 
+3717
+
+```
+</details>
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+Parsing time: 76
+.Done
+Result : 
+   0   1   2   3   4   5   6   7   8   9  10  11  12  X
+1174 131  95  93   2   0   0   4   1   0   0   0   0   0
+1.42
+268.7493333333333
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+Parsing time: 74
+.Done
+Result : 
+215
+184
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../baseline/private/_15000.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+<details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
+
+```
+Done
+Result : 
+38975
+
+```
+</details>
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+Parsing time: 331
+.Done
+Result : 
+    0    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   X
+12665 1572  224   87   76   16   12   11   14   18   17   36   17  123   46   14   10   13   29
+1.48
+2028.6281477523212
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+Parsing time: 333
+.Done
+Result : 
+3867
+634
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../baseline/private/_20.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+<details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
+
+```
+Done
+Result : 
+11
+
+```
+</details>
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+Parsing time: 4
+Done
+Result : 
+ 0 1 2 3 4 X
+13 0 1 1 2 3
+2.4
+4.0588235294117645
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+Parsing time: 4
+Done
+Result : 
+5
+4
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../baseline/private/_200.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+<details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
+
+```
+Done
+Result : 
+301
+
+```
+</details>
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+Parsing time: 16
+.Done
+Result : 
+  0  1  2  3  4  5  6  7  X
+129 19  9  6  1  1  3  2 30
+2.68
+39.01176470588236
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+Parsing time: 14
+.Done
+Result : 
+16
+12
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../baseline/private/_2000.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+<details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
+
+```
+Done
+Result : 
+4580
+
+```
+</details>
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+Parsing time: 102
+.Done
+Result : 
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  X
+1276 184  22  24  31  28  51   9  48  15  38  19   7  33   1 214
+3.88
+365.6063829787234
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+Parsing time: 101
+.Done
+Result : 
+1155
+305
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../baseline/private/_20000.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+<details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
+
+```
+Done
+Result : 
+50635
+
+```
+</details>
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+Parsing time: 440
+.Done
+Result : 
+    0    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   X
+13135 1617  730  392  362  185   41   94  142   55  193   14  635    6   29   49   21   42  152    1 2105
+4.29
+2717.5697680916455
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+Parsing time: 452
+.Done
+Result : 
+14162
+2621
+
+```
+</details>
 

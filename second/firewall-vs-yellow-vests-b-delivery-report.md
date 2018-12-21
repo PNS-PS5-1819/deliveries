@@ -1,5 +1,5 @@
 
-|Injecting submodule| :white_check_mark:|
+|Injecting submodule| :boom:|
 # Team firewall-vs-yellow-vests-b
 
 
@@ -470,4 +470,459 @@ ___
 
 
 ### StudentFirst
+
+
+#### Provided datasets
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_10.txt -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+:white_check_mark: - Distance
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+0 1 2 X
+9 0 0 1
+1.3
+2.0
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+0
+0
+
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_100.txt -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+:white_check_mark: - Distance
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+0 1 2 3 4 5 6 X
+78 12 0 0 3 5 1 1
+1.62
+23.88
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+15
+4
+
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_1_000.txt -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+:white_check_mark: - Distance
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+0 1 2 3 4 5 6 7 8 9 X
+718 105 27 29 17 35 10 3 23 1 32
+2.083
+179.0
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+316
+126
+
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_10_000.txt -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+:white_check_mark: - Distance
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 X
+6606 541 95 58 329 406 44 180 278 369 76 159 323 42 494
+3.5167
+1211.0725
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+8400
+2196
+
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_100_000.txt -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+:white_check_mark: - Distance
+
+:hourglass: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+
+```
+</details>
+
+:hourglass: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+
+```
+</details>
+
+
+#### Hidden datasets
+
+___
+` ./student_first.sh -i ../baseline/private/_15.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+:white_check_mark: - Distance
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+0 1 2 3 4 X
+14 1 0 0 0 0
+1.0666667
+4.0666666
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+0
+0
+
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../baseline/private/_150.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+:white_check_mark: - Distance
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+0 1 2 3 4 5 6 X
+143 6 1 0 0 0 0 0
+1.0533333
+28.48
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+0
+0
+
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../baseline/private/_1500.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+:white_check_mark: - Distance
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+0 1 2 3 4 5 6 7 8 9 10 11 12 X
+1174 131 95 93 2 0 0 4 1 0 0 0 0 0
+1.4293333
+268.74933
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+215
+184
+
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../baseline/private/_15000.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+:white_check_mark: - Distance
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 X
+12665 1572 224 87 76 16 12 11 14 18 17 36 17 123 46 14 10 13 29
+1.4809333
+2024.7064
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+3867
+634
+
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../baseline/private/_20.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+:white_check_mark: - Distance
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+0 1 2 3 4 X
+13 0 1 1 2 3
+2.4
+3.45
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+5
+4
+
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../baseline/private/_200.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+:white_check_mark: - Distance
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+0 1 2 3 4 5 6 7 X
+129 19 9 6 1 1 3 2 30
+2.68
+33.16
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+16
+12
+
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../baseline/private/_2000.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+:white_check_mark: - Distance
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 X
+1276 184 22 24 31 28 51 9 48 15 38 19 7 33 1 214
+3.889
+326.4865
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+1155
+305
+
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../baseline/private/_20000.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+:white_check_mark: - Distance
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 X
+13135 1617 730 392 362 185 41 94 142 55 193 14 635 6 29 49 21 42 152 1 2105
+4.29945
+2431.5452
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+14162
+2621
+
+
+```
+</details>
 

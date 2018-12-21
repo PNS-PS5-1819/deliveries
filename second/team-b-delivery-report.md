@@ -307,3 +307,274 @@ ___
 
 ### StudentFirst
 
+
+#### Provided datasets
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_10.txt -o /tmp/computed-soluc-team.sol `
+
+:boom: - Result
+
+:boom: - output file creation
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_100.txt -o /tmp/computed-soluc-team.sol `
+
+:boom: - Result
+
+:boom: - output file creation
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_1_000.txt -o /tmp/computed-soluc-team.sol `
+
+:boom: - Result
+
+:boom: - output file creation
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_10_000.txt -o /tmp/computed-soluc-team.sol `
+
+:boom: - Result
+
+:boom: - output file creation
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_100_000.txt -o /tmp/computed-soluc-team.sol `
+
+:boom: - Result
+
+:boom: - output file creation
+
+
+#### Hidden datasets
+
+___
+` ./student_first.sh -i ../baseline/private/_15.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+:white_check_mark: - Distance
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction</summary>
+
+```
+3,4c3,4
+< 1.0666666666666667
+< 4.06667
+---
+> 1.0666667
+> 4.0666666
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+:white_check_mark: - Stability
+
+___
+` ./student_first.sh -i ../baseline/private/_150.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+:white_check_mark: - Distance
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction</summary>
+
+```
+3c3
+< 1.0533333333333332
+---
+> 1.0533333
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+:white_check_mark: - Stability
+
+___
+` ./student_first.sh -i ../baseline/private/_1500.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+:white_check_mark: - Distance
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction</summary>
+
+```
+3,4c3,4
+< 1.4293333333333333
+< 268.749
+---
+> 1.4293333
+> 268.74933
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+:white_check_mark: - Stability
+
+___
+` ./student_first.sh -i ../baseline/private/_15000.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+:white_check_mark: - Distance
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction</summary>
+
+```
+3,4c3,4
+< 1.4809333333333334
+< 2028.63
+---
+> 1.4809333
+> 2028.6284
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+:white_check_mark: - Stability
+
+___
+` ./student_first.sh -i ../baseline/private/_20.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+:white_check_mark: - Distance
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction</summary>
+
+```
+4c4
+< 4.05882
+---
+> 4.0588236
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+:white_check_mark: - Stability
+
+___
+` ./student_first.sh -i ../baseline/private/_200.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+:white_check_mark: - Distance
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction</summary>
+
+```
+4c4
+< 39.0118
+---
+> 39.011765
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+:white_check_mark: - Stability
+
+___
+` ./student_first.sh -i ../baseline/private/_2000.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+:white_check_mark: - Distance
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction</summary>
+
+```
+4c4
+< 365.606
+---
+> 365.60638
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+:white_check_mark: - Stability
+
+___
+` ./student_first.sh -i ../baseline/private/_20000.in -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:white_check_mark: - Distance computed
+
+:white_check_mark: - Distance
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction</summary>
+
+```
+4c4
+< 2717.57
+---
+> 2717.5693
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+:white_check_mark: - Stability
+

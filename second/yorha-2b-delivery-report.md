@@ -1,5 +1,5 @@
 
-|Injecting submodule| :white_check_mark:|
+|Injecting submodule| :boom:|
 # Team yorha-2b
 
 
@@ -69,7 +69,7 @@ org.apache.commons.cli.CommandLine@24a50c76
 <details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@15dd77bd
+org.apache.commons.cli.CommandLine@3ce8915a
 
 ```
 </details>
@@ -79,7 +79,7 @@ org.apache.commons.cli.CommandLine@15dd77bd
 <details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@585d98cb
+org.apache.commons.cli.CommandLine@2f21cdf6
 
 ```
 </details>
@@ -96,7 +96,7 @@ ___
 <details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@24a50c76
+org.apache.commons.cli.CommandLine@650f0b62
 [ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.6.0:java (default-cli) on project apb: An exception occured while executing the Java class. For input string: "X" -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
@@ -113,7 +113,7 @@ org.apache.commons.cli.CommandLine@24a50c76
 <details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@3ce8915a
+org.apache.commons.cli.CommandLine@7f746c72
 
 ```
 </details>
@@ -123,7 +123,7 @@ org.apache.commons.cli.CommandLine@3ce8915a
 <details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@2d2477cb
+org.apache.commons.cli.CommandLine@7f746c72
 
 ```
 </details>
@@ -140,7 +140,7 @@ ___
 <details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@6cd5dcdc
+org.apache.commons.cli.CommandLine@1a60409
 [ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.6.0:java (default-cli) on project apb: An exception occured while executing the Java class. For input string: "X" -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
@@ -157,7 +157,7 @@ org.apache.commons.cli.CommandLine@6cd5dcdc
 <details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@24a50c76
+org.apache.commons.cli.CommandLine@3474b77b
 
 ```
 </details>
@@ -167,7 +167,7 @@ org.apache.commons.cli.CommandLine@24a50c76
 <details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@24a50c76
+org.apache.commons.cli.CommandLine@1a60409
 
 ```
 </details>
@@ -184,7 +184,7 @@ ___
 <details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@55dc989
+org.apache.commons.cli.CommandLine@42d31419
 [ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.6.0:java (default-cli) on project apb: An exception occured while executing the Java class. For input string: "X" -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
@@ -201,7 +201,7 @@ org.apache.commons.cli.CommandLine@55dc989
 <details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@7f746c72
+org.apache.commons.cli.CommandLine@63e6dade
 
 ```
 </details>
@@ -211,7 +211,7 @@ org.apache.commons.cli.CommandLine@7f746c72
 <details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@3ce8915a
+org.apache.commons.cli.CommandLine@63e6dade
 
 ```
 </details>
@@ -238,7 +238,7 @@ ___
 <details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@24a50c76
+org.apache.commons.cli.CommandLine@650f0b62
 [ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.6.0:java (default-cli) on project apb: An exception occured while executing the Java class. For input string: "4
 [ERROR] "
 [ERROR] -> [Help 1]
@@ -257,7 +257,7 @@ org.apache.commons.cli.CommandLine@24a50c76
 <details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@650f0b62
+org.apache.commons.cli.CommandLine@2d2477cb
 
 ```
 </details>
@@ -284,7 +284,7 @@ ___
 <details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@585d98cb
+org.apache.commons.cli.CommandLine@2f21cdf6
 [ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.6.0:java (default-cli) on project apb: An exception occured while executing the Java class. For input string: "6
 [ERROR] "
 [ERROR] -> [Help 1]
@@ -303,7 +303,7 @@ org.apache.commons.cli.CommandLine@585d98cb
 <details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@68e13bc7
+org.apache.commons.cli.CommandLine@3474b77b
 
 ```
 </details>
@@ -330,7 +330,7 @@ ___
 <details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@3ce8915a
+org.apache.commons.cli.CommandLine@650f0b62
 [ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.6.0:java (default-cli) on project apb: An exception occured while executing the Java class. For input string: "27
 [ERROR] "
 [ERROR] -> [Help 1]
@@ -349,7 +349,7 @@ org.apache.commons.cli.CommandLine@3ce8915a
 <details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@2f21cdf6
+org.apache.commons.cli.CommandLine@650f0b62
 
 ```
 </details>
@@ -376,7 +376,7 @@ ___
 <details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@3ce8915a
+org.apache.commons.cli.CommandLine@650f0b62
 [ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.6.0:java (default-cli) on project apb: An exception occured while executing the Java class. For input string: "13
 [ERROR] "
 [ERROR] -> [Help 1]
@@ -390,12 +390,12 @@ org.apache.commons.cli.CommandLine@3ce8915a
 ```
 </details>
 
-:white_check_mark: - Satisfaction computed
+:hourglass: - Satisfaction computed
 
 <details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@1a60409
+org.apache.commons.cli.CommandLine@2d2477cb
 
 ```
 </details>
@@ -405,7 +405,7 @@ org.apache.commons.cli.CommandLine@1a60409
 <details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@24a50c76
+org.apache.commons.cli.CommandLine@42d31419
 
 ```
 </details>
@@ -422,7 +422,7 @@ ___
 <details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@63e6dade
+org.apache.commons.cli.CommandLine@2d2477cb
 [ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.6.0:java (default-cli) on project apb: An exception occured while executing the Java class. For input string: "X" -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
@@ -439,7 +439,7 @@ org.apache.commons.cli.CommandLine@63e6dade
 <details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@24a50c76
+org.apache.commons.cli.CommandLine@650f0b62
 
 ```
 </details>
@@ -449,7 +449,7 @@ org.apache.commons.cli.CommandLine@24a50c76
 <details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@650f0b62
+org.apache.commons.cli.CommandLine@2f21cdf6
 
 ```
 </details>
@@ -466,7 +466,7 @@ ___
 <details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@63e6dade
+org.apache.commons.cli.CommandLine@3474b77b
 [ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.6.0:java (default-cli) on project apb: An exception occured while executing the Java class. For input string: "X" -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
@@ -483,7 +483,7 @@ org.apache.commons.cli.CommandLine@63e6dade
 <details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@585d98cb
+org.apache.commons.cli.CommandLine@15dd77bd
 
 ```
 </details>
@@ -493,7 +493,7 @@ org.apache.commons.cli.CommandLine@585d98cb
 <details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@650f0b62
+org.apache.commons.cli.CommandLine@1a60409
 
 ```
 </details>
@@ -510,7 +510,7 @@ ___
 <details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@1a60409
+org.apache.commons.cli.CommandLine@7f746c72
 [ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.6.0:java (default-cli) on project apb: An exception occured while executing the Java class. For input string: "X" -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
@@ -527,7 +527,7 @@ org.apache.commons.cli.CommandLine@1a60409
 <details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@2d2477cb
+org.apache.commons.cli.CommandLine@3ce8915a
 
 ```
 </details>
@@ -537,7 +537,7 @@ org.apache.commons.cli.CommandLine@2d2477cb
 <details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
 
 ```
-org.apache.commons.cli.CommandLine@3ce8915a
+org.apache.commons.cli.CommandLine@63e6dade
 
 ```
 </details>
@@ -551,4 +551,101 @@ ___
 
 
 ### StudentFirst
+
+
+#### Provided datasets
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_10.txt -o /tmp/computed-soluc-team.sol `
+
+:boom: - Result
+
+:boom: - output file creation
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_100.txt -o /tmp/computed-soluc-team.sol `
+
+:boom: - Result
+
+:boom: - output file creation
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_1_000.txt -o /tmp/computed-soluc-team.sol `
+
+:boom: - Result
+
+:boom: - output file creation
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_10_000.txt -o /tmp/computed-soluc-team.sol `
+
+:boom: - Result
+
+:boom: - output file creation
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_100_000.txt -o /tmp/computed-soluc-team.sol `
+
+:boom: - Result
+
+:boom: - output file creation
+
+
+#### Hidden datasets
+
+___
+` ./student_first.sh -i ../baseline/private/_15.in -o /tmp/computed-soluc-team.sol `
+
+:boom: - Result
+
+:boom: - output file creation
+
+___
+` ./student_first.sh -i ../baseline/private/_150.in -o /tmp/computed-soluc-team.sol `
+
+:boom: - Result
+
+:boom: - output file creation
+
+___
+` ./student_first.sh -i ../baseline/private/_1500.in -o /tmp/computed-soluc-team.sol `
+
+:boom: - Result
+
+:boom: - output file creation
+
+___
+` ./student_first.sh -i ../baseline/private/_15000.in -o /tmp/computed-soluc-team.sol `
+
+:boom: - Result
+
+:boom: - output file creation
+
+___
+` ./student_first.sh -i ../baseline/private/_20.in -o /tmp/computed-soluc-team.sol `
+
+:boom: - Result
+
+:boom: - output file creation
+
+___
+` ./student_first.sh -i ../baseline/private/_200.in -o /tmp/computed-soluc-team.sol `
+
+:boom: - Result
+
+:boom: - output file creation
+
+___
+` ./student_first.sh -i ../baseline/private/_2000.in -o /tmp/computed-soluc-team.sol `
+
+:boom: - Result
+
+:boom: - output file creation
+
+___
+` ./student_first.sh -i ../baseline/private/_20000.in -o /tmp/computed-soluc-team.sol `
+
+:boom: - Result
+
+:boom: - output file creation
 

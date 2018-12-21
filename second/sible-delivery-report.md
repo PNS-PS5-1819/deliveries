@@ -1,11 +1,11 @@
 
-|Injecting submodule| :white_check_mark:|
+|Injecting submodule| :boom:|
 # Team sible
 
 
 ## Environment
 
-Latest commit date: `Date:   Thu Dec 20 00:56:48 2018 +0100`
+Latest commit date: `Date:   Thu Dec 20 19:48:56 2018 +0100`
 
 :white_check_mark: - TAG second
 
@@ -84,8 +84,8 @@ Args = [--satisfaction, -i, ../dataset/samples/sample_10.txt, -o, /tmp/computed-
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.449 s
-[INFO] Finished at: 2018-12-20T23:18:40+01:00
+[INFO] Total time:  0.432 s
+[INFO] Finished at: 2018-12-21T07:09:06+01:00
 [INFO] ------------------------------------------------------------------------
 
 ```
@@ -110,8 +110,8 @@ Args = [--stability, -i, ../dataset/samples/sample_10.txt, -o, /tmp/computed-sol
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.443 s
-[INFO] Finished at: 2018-12-20T23:18:41+01:00
+[INFO] Total time:  0.436 s
+[INFO] Finished at: 2018-12-21T07:09:07+01:00
 [INFO] ------------------------------------------------------------------------
 
 ```
@@ -163,8 +163,8 @@ Args = [--satisfaction, -i, ../dataset/samples/sample_100.txt, -o, /tmp/computed
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.428 s
-[INFO] Finished at: 2018-12-20T23:18:46+01:00
+[INFO] Total time:  0.432 s
+[INFO] Finished at: 2018-12-21T07:09:12+01:00
 [INFO] ------------------------------------------------------------------------
 
 ```
@@ -189,8 +189,8 @@ Args = [--stability, -i, ../dataset/samples/sample_100.txt, -o, /tmp/computed-so
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.424 s
-[INFO] Finished at: 2018-12-20T23:18:47+01:00
+[INFO] Total time:  0.436 s
+[INFO] Finished at: 2018-12-21T07:09:13+01:00
 [INFO] ------------------------------------------------------------------------
 
 ```
@@ -242,8 +242,8 @@ Args = [--satisfaction, -i, ../dataset/samples/sample_1_000.txt, -o, /tmp/comput
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.477 s
-[INFO] Finished at: 2018-12-20T23:18:52+01:00
+[INFO] Total time:  0.652 s
+[INFO] Finished at: 2018-12-21T07:09:18+01:00
 [INFO] ------------------------------------------------------------------------
 
 ```
@@ -268,8 +268,8 @@ Args = [--stability, -i, ../dataset/samples/sample_1_000.txt, -o, /tmp/computed-
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.498 s
-[INFO] Finished at: 2018-12-20T23:18:54+01:00
+[INFO] Total time:  0.489 s
+[INFO] Finished at: 2018-12-21T07:09:20+01:00
 [INFO] ------------------------------------------------------------------------
 
 ```
@@ -321,8 +321,8 @@ Args = [--satisfaction, -i, ../dataset/samples/sample_10_000.txt, -o, /tmp/compu
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.050 s
-[INFO] Finished at: 2018-12-20T23:19:00+01:00
+[INFO] Total time:  1.055 s
+[INFO] Finished at: 2018-12-21T07:09:26+01:00
 [INFO] ------------------------------------------------------------------------
 
 ```
@@ -347,8 +347,8 @@ Args = [--stability, -i, ../dataset/samples/sample_10_000.txt, -o, /tmp/computed
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.063 s
-[INFO] Finished at: 2018-12-20T23:19:02+01:00
+[INFO] Total time:  1.100 s
+[INFO] Finished at: 2018-12-21T07:09:28+01:00
 [INFO] ------------------------------------------------------------------------
 
 ```
@@ -422,4 +422,257 @@ ___
 
 
 ### StudentFirst
+
+
+#### Provided datasets
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_10.txt -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:hourglass: - Distance computed
+
+<details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
+
+```
+Running Student-First process
+Args = [--distance, -b, ../dataset/solutions/solution_10.txt, -o, /tmp/computed-soluc-team.sol]
+Cheated solution used as input for metrics computations : exit code 3
+
+```
+</details>
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+Running Student-First process
+Args = [--satisfaction, -i, ../dataset/samples/sample_10.txt, -o, /tmp/computed-soluc-team.sol]
+0     1     2     X
+9     0     0     1
+1.3
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+Running Student-First process
+Args = [--stability, -i, ../dataset/samples/sample_10.txt, -o, /tmp/computed-soluc-team.sol]
+0
+0
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_100.txt -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:hourglass: - Distance computed
+
+<details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
+
+```
+Running Student-First process
+Args = [--distance, -b, ../dataset/solutions/solution_100.txt, -o, /tmp/computed-soluc-team.sol]
+Cheated solution used as input for metrics computations : exit code 3
+
+```
+</details>
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+Running Student-First process
+Args = [--satisfaction, -i, ../dataset/samples/sample_100.txt, -o, /tmp/computed-soluc-team.sol]
+0     1     2     3     4     5     6     X
+78     12     0     0     3     5     1     1
+1.62
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+Running Student-First process
+Args = [--stability, -i, ../dataset/samples/sample_100.txt, -o, /tmp/computed-soluc-team.sol]
+19
+5
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_1_000.txt -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:hourglass: - Distance computed
+
+<details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
+
+```
+Running Student-First process
+Args = [--distance, -b, ../dataset/solutions/solution_1_000.txt, -o, /tmp/computed-soluc-team.sol]
+Cheated solution used as input for metrics computations : exit code 3
+
+```
+</details>
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+Running Student-First process
+Args = [--satisfaction, -i, ../dataset/samples/sample_1_000.txt, -o, /tmp/computed-soluc-team.sol]
+0     1     2     3     4     5     6     7     8     9     X
+718     105     27     29     17     35     10     3     23     1     32
+2.083
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+Running Student-First process
+Args = [--stability, -i, ../dataset/samples/sample_1_000.txt, -o, /tmp/computed-soluc-team.sol]
+322
+79
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_10_000.txt -o /tmp/computed-soluc-team.sol `
+
+:white_check_mark: - Result
+
+:white_check_mark: - output file creation
+
+:hourglass: - Distance computed
+
+<details><summary>:boom: Distance invalid. Expected 1 lines.</summary>
+
+```
+Running Student-First process
+Args = [--distance, -b, ../dataset/solutions/solution_10_000.txt, -o, /tmp/computed-soluc-team.sol]
+Cheated solution used as input for metrics computations : exit code 3
+
+```
+</details>
+
+:white_check_mark: - Satisfaction computed
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+Running Student-First process
+Args = [--satisfaction, -i, ../dataset/samples/sample_10_000.txt, -o, /tmp/computed-soluc-team.sol]
+0     1     2     3     4     5     6     7     8     9     10     11     12     13     X
+6606     541     95     58     329     406     44     180     278     369     76     159     323     42     494
+3.5167
+
+```
+</details>
+
+:white_check_mark: - Stability computed
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+Running Student-First process
+Args = [--stability, -i, ../dataset/samples/sample_10_000.txt, -o, /tmp/computed-soluc-team.sol]
+8093
+2087
+
+```
+</details>
+
+___
+` ./student_first.sh -i ../dataset/samples/sample_100_000.txt -o /tmp/computed-soluc-team.sol `
+
+:hourglass: - Result
+
+:boom: - output file creation
+
+
+#### Hidden datasets
+
+___
+` ./student_first.sh -i ../baseline/private/_15.in -o /tmp/computed-soluc-team.sol `
+
+:hourglass: - Result
+
+:boom: - output file creation
+
+___
+` ./student_first.sh -i ../baseline/private/_150.in -o /tmp/computed-soluc-team.sol `
+
+:hourglass: - Result
+
+:boom: - output file creation
+
+___
+` ./student_first.sh -i ../baseline/private/_1500.in -o /tmp/computed-soluc-team.sol `
+
+:hourglass: - Result
+
+:boom: - output file creation
+
+___
+` ./student_first.sh -i ../baseline/private/_15000.in -o /tmp/computed-soluc-team.sol `
+
+:hourglass: - Result
+
+:boom: - output file creation
+
+___
+` ./student_first.sh -i ../baseline/private/_20.in -o /tmp/computed-soluc-team.sol `
+
+:hourglass: - Result
+
+:boom: - output file creation
+
+___
+` ./student_first.sh -i ../baseline/private/_200.in -o /tmp/computed-soluc-team.sol `
+
+:hourglass: - Result
+
+:boom: - output file creation
+
+___
+` ./student_first.sh -i ../baseline/private/_2000.in -o /tmp/computed-soluc-team.sol `
+
+:hourglass: - Result
+
+:boom: - output file creation
+
+___
+` ./student_first.sh -i ../baseline/private/_20000.in -o /tmp/computed-soluc-team.sol `
+
+:hourglass: - Result
+
+:boom: - output file creation
 
