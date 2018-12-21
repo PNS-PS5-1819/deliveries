@@ -1,5 +1,5 @@
 
-|Injecting submodule| :boom:|
+
 # Team team-b
 
 

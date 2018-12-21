@@ -1,5 +1,5 @@
 
-|Injecting submodule| :boom:|
+
 # Team des-int-et-des-char
 
 

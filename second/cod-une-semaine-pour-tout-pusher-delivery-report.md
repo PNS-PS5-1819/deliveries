@@ -1,5 +1,5 @@
 
-|Injecting submodule| :boom:|
+
 # Team cod-une-semaine-pour-tout-pusher
 
 
