@@ -1,5 +1,4 @@
 
-
 # Team team-b
 
 
@@ -41,37 +40,164 @@ Latest commit date: `Date:   Thu Dec 20 18:49:16 2018 +0100`
 ___
 ` ./apb.sh -i ../dataset/samples/sample_10.txt -o /tmp/computed-soluc-team.sol `
 
-:boom: - Result
+:white_check_mark: - Result
 
-:boom: - output file creation
+:white_check_mark: - output file creation
+
+
+:white_check_mark: - Distance computed
+
+
+:white_check_mark: - Distance
+
+
+:white_check_mark: - Satisfaction computed
+
+
+:white_check_mark: - Satisfaction
+
+
+:white_check_mark: - Stability computed
+
+
+:white_check_mark: - Stability
 
 ___
 ` ./apb.sh -i ../dataset/samples/sample_100.txt -o /tmp/computed-soluc-team.sol `
 
-:boom: - Result
+:white_check_mark: - Result
 
-:boom: - output file creation
+:white_check_mark: - output file creation
+
+
+:white_check_mark: - Distance computed
+
+
+:white_check_mark: - Distance
+
+
+:white_check_mark: - Satisfaction computed
+
+
+<details><summary>:boom: Satisfaction</summary>
+
+```
+4c4
+< 22.5657
+---
+> 22.565657
+
+```
+</details>
+
+
+:white_check_mark: - Stability computed
+
+
+:white_check_mark: - Stability
 
 ___
 ` ./apb.sh -i ../dataset/samples/sample_1_000.txt -o /tmp/computed-soluc-team.sol `
 
-:boom: - Result
+:white_check_mark: - Result
 
-:boom: - output file creation
+:white_check_mark: - output file creation
+
+
+:white_check_mark: - Distance computed
+
+
+:white_check_mark: - Distance
+
+
+:white_check_mark: - Satisfaction computed
+
+
+<details><summary>:boom: Satisfaction</summary>
+
+```
+4c4
+< 168.852
+---
+> 168.8516
+
+```
+</details>
+
+
+:white_check_mark: - Stability computed
+
+
+:white_check_mark: - Stability
 
 ___
 ` ./apb.sh -i ../dataset/samples/sample_10_000.txt -o /tmp/computed-soluc-team.sol `
 
-:boom: - Result
+:white_check_mark: - Result
 
-:boom: - output file creation
+:white_check_mark: - output file creation
+
+
+:white_check_mark: - Distance computed
+
+
+:white_check_mark: - Distance
+
+
+:white_check_mark: - Satisfaction computed
+
+
+<details><summary>:boom: Satisfaction</summary>
+
+```
+4c4
+< 1171.65
+---
+> 1171.649
+
+```
+</details>
+
+
+:white_check_mark: - Stability computed
+
+
+:white_check_mark: - Stability
 
 ___
 ` ./apb.sh -i ../dataset/samples/sample_100_000.txt -o /tmp/computed-soluc-team.sol `
 
-:boom: - Result
+:white_check_mark: - Result
 
-:boom: - output file creation
+:white_check_mark: - output file creation
+
+
+:white_check_mark: - Distance computed
+
+
+:white_check_mark: - Distance
+
+
+:hourglass: - Satisfaction computed
+
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+
+```
+</details>
+
+
+:hourglass: - Stability computed
+
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+
+```
+</details>
 
 
 #### Hidden datasets
@@ -83,11 +209,15 @@ ___
 
 :white_check_mark: - output file creation
 
+
 :white_check_mark: - Distance computed
+
 
 :white_check_mark: - Distance
 
+
 :white_check_mark: - Satisfaction computed
+
 
 <details><summary>:boom: Satisfaction</summary>
 
@@ -102,7 +232,9 @@ ___
 ```
 </details>
 
+
 :white_check_mark: - Stability computed
+
 
 :white_check_mark: - Stability
 
@@ -113,11 +245,15 @@ ___
 
 :white_check_mark: - output file creation
 
+
 :white_check_mark: - Distance computed
+
 
 :white_check_mark: - Distance
 
+
 :white_check_mark: - Satisfaction computed
+
 
 <details><summary>:boom: Satisfaction</summary>
 
@@ -130,7 +266,9 @@ ___
 ```
 </details>
 
+
 :white_check_mark: - Stability computed
+
 
 :white_check_mark: - Stability
 
@@ -141,11 +279,15 @@ ___
 
 :white_check_mark: - output file creation
 
+
 :white_check_mark: - Distance computed
+
 
 :white_check_mark: - Distance
 
+
 :white_check_mark: - Satisfaction computed
+
 
 <details><summary>:boom: Satisfaction</summary>
 
@@ -158,7 +300,9 @@ ___
 ```
 </details>
 
+
 :white_check_mark: - Stability computed
+
 
 :white_check_mark: - Stability
 
@@ -169,11 +313,15 @@ ___
 
 :white_check_mark: - output file creation
 
+
 :white_check_mark: - Distance computed
+
 
 :white_check_mark: - Distance
 
+
 :white_check_mark: - Satisfaction computed
+
 
 <details><summary>:boom: Satisfaction</summary>
 
@@ -188,7 +336,9 @@ ___
 ```
 </details>
 
+
 :white_check_mark: - Stability computed
+
 
 :white_check_mark: - Stability
 
@@ -199,11 +349,15 @@ ___
 
 :white_check_mark: - output file creation
 
+
 :white_check_mark: - Distance computed
+
 
 :white_check_mark: - Distance
 
+
 :white_check_mark: - Satisfaction computed
+
 
 <details><summary>:boom: Satisfaction</summary>
 
@@ -216,7 +370,9 @@ ___
 ```
 </details>
 
+
 :white_check_mark: - Stability computed
+
 
 :white_check_mark: - Stability
 
@@ -227,11 +383,15 @@ ___
 
 :white_check_mark: - output file creation
 
+
 :white_check_mark: - Distance computed
+
 
 :white_check_mark: - Distance
 
+
 :white_check_mark: - Satisfaction computed
+
 
 <details><summary>:boom: Satisfaction</summary>
 
@@ -244,7 +404,9 @@ ___
 ```
 </details>
 
+
 :white_check_mark: - Stability computed
+
 
 :white_check_mark: - Stability
 
@@ -255,11 +417,15 @@ ___
 
 :white_check_mark: - output file creation
 
+
 :white_check_mark: - Distance computed
+
 
 :white_check_mark: - Distance
 
+
 :white_check_mark: - Satisfaction computed
+
 
 <details><summary>:boom: Satisfaction</summary>
 
@@ -272,7 +438,9 @@ ___
 ```
 </details>
 
+
 :white_check_mark: - Stability computed
+
 
 :white_check_mark: - Stability
 
@@ -283,11 +451,15 @@ ___
 
 :white_check_mark: - output file creation
 
+
 :white_check_mark: - Distance computed
+
 
 :white_check_mark: - Distance
 
+
 :white_check_mark: - Satisfaction computed
+
 
 <details><summary>:boom: Satisfaction</summary>
 
@@ -300,7 +472,9 @@ ___
 ```
 </details>
 
+
 :white_check_mark: - Stability computed
+
 
 :white_check_mark: - Stability
 
@@ -313,37 +487,173 @@ ___
 ___
 ` ./student_first.sh -i ../dataset/samples/sample_10.txt -o /tmp/computed-soluc-team.sol `
 
-:boom: - Result
+:white_check_mark: - Result
 
-:boom: - output file creation
+:white_check_mark: - output file creation
+
+
+:white_check_mark: - Distance computed
+
+
+:white_check_mark: - Distance
+
+
+:white_check_mark: - Satisfaction computed
+
+
+<details><summary>:boom: Satisfaction</summary>
+
+```
+4c4
+< 2.22222
+---
+> 2.2222223
+
+```
+</details>
+
+
+:white_check_mark: - Stability computed
+
+
+:white_check_mark: - Stability
 
 ___
 ` ./student_first.sh -i ../dataset/samples/sample_100.txt -o /tmp/computed-soluc-team.sol `
 
-:boom: - Result
+:white_check_mark: - Result
 
-:boom: - output file creation
+:white_check_mark: - output file creation
+
+
+:white_check_mark: - Distance computed
+
+
+:white_check_mark: - Distance
+
+
+:white_check_mark: - Satisfaction computed
+
+
+<details><summary>:boom: Satisfaction</summary>
+
+```
+4c4
+< 24.1212
+---
+> 24.121212
+
+```
+</details>
+
+
+:white_check_mark: - Stability computed
+
+
+:white_check_mark: - Stability
 
 ___
 ` ./student_first.sh -i ../dataset/samples/sample_1_000.txt -o /tmp/computed-soluc-team.sol `
 
-:boom: - Result
+:white_check_mark: - Result
 
-:boom: - output file creation
+:white_check_mark: - output file creation
+
+
+:white_check_mark: - Distance computed
+
+
+:white_check_mark: - Distance
+
+
+:white_check_mark: - Satisfaction computed
+
+
+<details><summary>:boom: Satisfaction</summary>
+
+```
+4c4
+< 184.917
+---
+> 184.91736
+
+```
+</details>
+
+
+:white_check_mark: - Stability computed
+
+
+:white_check_mark: - Stability
 
 ___
 ` ./student_first.sh -i ../dataset/samples/sample_10_000.txt -o /tmp/computed-soluc-team.sol `
 
-:boom: - Result
+:white_check_mark: - Result
 
-:boom: - output file creation
+:white_check_mark: - output file creation
+
+
+:white_check_mark: - Distance computed
+
+
+:white_check_mark: - Distance
+
+
+:white_check_mark: - Satisfaction computed
+
+
+<details><summary>:boom: Satisfaction</summary>
+
+```
+4c4
+< 1274.01
+---
+> 1274.0085
+
+```
+</details>
+
+
+:white_check_mark: - Stability computed
+
+
+:white_check_mark: - Stability
 
 ___
 ` ./student_first.sh -i ../dataset/samples/sample_100_000.txt -o /tmp/computed-soluc-team.sol `
 
-:boom: - Result
+:white_check_mark: - Result
 
-:boom: - output file creation
+:white_check_mark: - output file creation
+
+
+:white_check_mark: - Distance computed
+
+
+:white_check_mark: - Distance
+
+
+:hourglass: - Satisfaction computed
+
+
+<details><summary>:boom: Satisfaction invalid. Expected 4 lines.</summary>
+
+```
+
+```
+</details>
+
+
+:hourglass: - Stability computed
+
+
+<details><summary>:boom: Stability invalid. Expected 2 lines.</summary>
+
+```
+
+```
+</details>
 
 
 #### Hidden datasets
@@ -355,11 +665,15 @@ ___
 
 :white_check_mark: - output file creation
 
+
 :white_check_mark: - Distance computed
+
 
 :white_check_mark: - Distance
 
+
 :white_check_mark: - Satisfaction computed
+
 
 <details><summary>:boom: Satisfaction</summary>
 
@@ -374,7 +688,9 @@ ___
 ```
 </details>
 
+
 :white_check_mark: - Stability computed
+
 
 :white_check_mark: - Stability
 
@@ -385,11 +701,15 @@ ___
 
 :white_check_mark: - output file creation
 
+
 :white_check_mark: - Distance computed
+
 
 :white_check_mark: - Distance
 
+
 :white_check_mark: - Satisfaction computed
+
 
 <details><summary>:boom: Satisfaction</summary>
 
@@ -402,7 +722,9 @@ ___
 ```
 </details>
 
+
 :white_check_mark: - Stability computed
+
 
 :white_check_mark: - Stability
 
@@ -413,11 +735,15 @@ ___
 
 :white_check_mark: - output file creation
 
+
 :white_check_mark: - Distance computed
+
 
 :white_check_mark: - Distance
 
+
 :white_check_mark: - Satisfaction computed
+
 
 <details><summary>:boom: Satisfaction</summary>
 
@@ -432,7 +758,9 @@ ___
 ```
 </details>
 
+
 :white_check_mark: - Stability computed
+
 
 :white_check_mark: - Stability
 
@@ -443,11 +771,15 @@ ___
 
 :white_check_mark: - output file creation
 
+
 :white_check_mark: - Distance computed
+
 
 :white_check_mark: - Distance
 
+
 :white_check_mark: - Satisfaction computed
+
 
 <details><summary>:boom: Satisfaction</summary>
 
@@ -462,7 +794,9 @@ ___
 ```
 </details>
 
+
 :white_check_mark: - Stability computed
+
 
 :white_check_mark: - Stability
 
@@ -473,11 +807,15 @@ ___
 
 :white_check_mark: - output file creation
 
+
 :white_check_mark: - Distance computed
+
 
 :white_check_mark: - Distance
 
+
 :white_check_mark: - Satisfaction computed
+
 
 <details><summary>:boom: Satisfaction</summary>
 
@@ -490,7 +828,9 @@ ___
 ```
 </details>
 
+
 :white_check_mark: - Stability computed
+
 
 :white_check_mark: - Stability
 
@@ -501,11 +841,15 @@ ___
 
 :white_check_mark: - output file creation
 
+
 :white_check_mark: - Distance computed
+
 
 :white_check_mark: - Distance
 
+
 :white_check_mark: - Satisfaction computed
+
 
 <details><summary>:boom: Satisfaction</summary>
 
@@ -518,7 +862,9 @@ ___
 ```
 </details>
 
+
 :white_check_mark: - Stability computed
+
 
 :white_check_mark: - Stability
 
@@ -529,11 +875,15 @@ ___
 
 :white_check_mark: - output file creation
 
+
 :white_check_mark: - Distance computed
+
 
 :white_check_mark: - Distance
 
+
 :white_check_mark: - Satisfaction computed
+
 
 <details><summary>:boom: Satisfaction</summary>
 
@@ -546,7 +896,9 @@ ___
 ```
 </details>
 
+
 :white_check_mark: - Stability computed
+
 
 :white_check_mark: - Stability
 
@@ -557,11 +909,15 @@ ___
 
 :white_check_mark: - output file creation
 
+
 :white_check_mark: - Distance computed
+
 
 :white_check_mark: - Distance
 
+
 :white_check_mark: - Satisfaction computed
+
 
 <details><summary>:boom: Satisfaction</summary>
 
@@ -574,7 +930,8 @@ ___
 ```
 </details>
 
+
 :white_check_mark: - Stability computed
 
-:white_check_mark: - Stability
 
+:white_check_mark: - Stability
